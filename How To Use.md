@@ -8,7 +8,8 @@
 
 
  ```Form Scrach ```
-1: ```Download python 3.9 To Your path```
+
+ 1: ```Download python 3.9 To Your path```
 
 2: ```Turn Off Your antivirus And Download The Just Src You Dont Need AnyThing Else```
 
