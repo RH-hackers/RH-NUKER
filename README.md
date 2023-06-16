@@ -1,5 +1,5 @@
 # RH-NUKER
-https://youtu.be/7g3a9d7wP6M
+
 Python Discord Server Nuker
 <div id="top"></div>
 <p align="center">
@@ -13,7 +13,7 @@ Python Discord Server Nuker
     <a href="https://github.com/RH-hackers/RH-NUKER/blob/main/How%20To%20Use.md"><strong>How To Use»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/RH-hackers/RH-NUKER/issues">Report Bug</a>
+    <a href="https://youtu.be/7g3a9d7wP6M">Youtube</a>
     ·
     <a href="https://discord.com/invite/vzmvZYUCxg">Request Feature</a>
   </p>
