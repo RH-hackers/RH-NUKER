@@ -9,12 +9,12 @@ Python Discord Server Nuker
   <h3 align="center">Multifunctional bot for destroying discord servers</h3>
   <p align="center">
     <br />
-    <a href="https://github.com/RH-hackers/RH-NUKER"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RH-hackers/RH-NUKER/blob/main/How%20To%20Use.md"><strong>How To Use»</strong></a>
     <br />
     <br />
     <a href="https://github.com/RH-hackers/RH-NUKER/issues">Report Bug</a>
     ·
-    <a href="https://github.com/RH-hackers/RH-NUKER/issues">Request Feature</a>
+    <a href="https://discord.com/invite/vzmvZYUCxg">Request Feature</a>
   </p>
 </p>
 
